@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
+import Survey from "./elements/Survey";
+import Header from "./elements/Header";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Survey</h1>
-    </div>
+    <>
+      <Header />
+      <Survey />
+    </>
   );
 }
 
